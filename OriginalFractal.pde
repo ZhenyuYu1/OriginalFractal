@@ -13,7 +13,7 @@ public void mouseDragged()//optional
 public void fractal(int x, int y, int len)
 {
   fill((int)(Math.random()*256), (int)(Math.random()*256), (int)(Math.random()*256), (int)(Math.random()*256));
-  circle(x, y, len);
+  ellipse(x, y, len, len);
   if(len <= 10)
   {
     
